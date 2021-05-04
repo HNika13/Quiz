@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    height: 600px;
+    width: 90%;
+    margin: 150px auto;
+}
+
+main .questionList ul {
+    list-style: none;
+    padding: 0px;
+}
+
+main .questionList ul li {
+    height: 40px;
+}
+
+.questionList {
+    cursor: pointer;
+}
+
+.questionList {
+    display: inline-block;
+    width: 15%;
+}
+
+.displayQuestion {
+    width: 85%;
+    float: right;
+}
+
+.displayQuestion p {
+    text-align: center;
+    font-weight: 500px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-left: 100px;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+}
+
+.checkbox {
+    font-size: 40px;
+}
+
+.buttons {
+    float: right;
+}
+
+.buttons button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttons .back {
+    background-color: red;
+}
+
+.buttons .front {
+    background-color: green;
+}
+
+.containerQuestions label {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.questionList ul li {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.questionList ul li:hover {
+    background-color: grey;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: 1s;
+}
+
+.sumbit {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: blue;
+    margin-left: 100px;
+}
+
+.clear {
+    background-color: yellowgreen;
+}
+
+.finish {
+    text-align: center;
+    font-size: 40px;
+}
+
+.finishing {
+    background-color: tomato;
+}
+
+
+/* Second Design */
